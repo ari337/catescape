@@ -22,5 +22,18 @@ public class PlayerController : MonoBehaviour
         {
             transform.Translate(1, 0, 0);
         }
+
+        
+    }
+
+    public void LButtonDown()
+    {
+        transform.Translate(-3, 0, 0);
+
+    }
+    public void RButtonDown()
+    {
+        transform.Translate(3, 0, 0);
+
     }
 }
