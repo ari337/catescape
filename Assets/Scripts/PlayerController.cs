@@ -23,7 +23,10 @@ public class PlayerController : MonoBehaviour
             transform.Translate(1, 0, 0);
         }
 
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     public void LButtonDown()
